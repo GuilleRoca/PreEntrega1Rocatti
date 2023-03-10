@@ -1,8 +1,13 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   text-align: center;
+  font-family: sans-serif;
+}
+
+body{
+  margin: 0;
 }
 
 .logo {
@@ -10,6 +15,7 @@
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+  background-color: aquamarine;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
@@ -39,4 +45,43 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.navbar{
+  display: flex;
+  background-color: aquamarine;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0px;
+  align-items: center;
+}
+
+.navbar a{
+  text-decoration: none;
+}
+
+
+
+.icono{
+  height: 30px;
+  width: auto;
+  background-color: aquamarine;
+}
+
+.container{
+  margin: 0px;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.cantCarrito{
+  display: flex;
+}
+
+.numCarrito{
+  border-radius: 100%;
+  background-color: red;
+  width: 20px;
+  height: 20px;
 }

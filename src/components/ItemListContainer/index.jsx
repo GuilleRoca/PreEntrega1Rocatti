@@ -1,7 +1,7 @@
 const ItemListContainer = ({texto}) => {
   return (
     <div>
-        <p className="blackColor div50">{texto}</p>
+      <p className="blackColor card">{texto}</p>
     </div>
   )
 }

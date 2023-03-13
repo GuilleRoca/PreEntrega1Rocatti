@@ -85,3 +85,17 @@ body{
   width: 20px;
   height: 20px;
 }
+
+.whiteColor{
+  color: white;
+}
+
+.blackColor{
+  color: black;
+}
+
+.div50{
+  width: 50%;
+  justify-content: left;
+  height: 100%;
+}

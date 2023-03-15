@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Sono', sans-serif;
 }
 
 body{
@@ -17,7 +17,6 @@ body{
  /*  padding: 1.5em; */
   will-change: filter;
   transition: filter 300ms;
-  background-color: aquamarine;
   margin: 20px;
   border-radius: 15px;
 }
@@ -53,7 +52,7 @@ body{
 
 .navbar{
   display: flex;
-  background-color: aquamarine;
+  background-color: rgb(193,225,0);
   justify-content: space-around;
   margin: 15px;
   align-items: center;
@@ -75,7 +74,7 @@ body{
 .icono{
   height: 30px;
   width: auto;
-  background-color: aquamarine;
+  background-color: rgb(193,225,0);
 }
 
 .container{
